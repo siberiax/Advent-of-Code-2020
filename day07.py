@@ -1,6 +1,6 @@
 import sys
 
-data = [line.strip() for line in open(sys.argv[1]).readlines()]
+data = [line.strip() for line in open(sys.argv[1])]
 
 bg = dict()
 

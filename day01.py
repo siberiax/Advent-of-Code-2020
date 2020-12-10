@@ -1,6 +1,6 @@
 import sys
 
-inp = [int(i) for i in open(sys.argv[1]).readlines()]
+inp = [int(i) for i in open(sys.argv[1])]
 
 for x in range(len(inp)):
     for y in range(len(inp)):

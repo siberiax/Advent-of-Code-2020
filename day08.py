@@ -1,6 +1,6 @@
 import sys
 
-instructions = [line.strip() for line in open(sys.argv[1]).readlines()]
+instructions = [line.strip() for line in open(sys.argv[1])]
 
 for i in range(len(instructions)):
 

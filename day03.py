@@ -1,6 +1,6 @@
 import sys
 
-rows = [line.strip() for line in open(sys.argv[1]).readlines()]
+rows = [line.strip() for line in open(sys.argv[1])]
 
 slopes = [(1,1), (3,1), (5,1), (7,1), (1,2)]
 
