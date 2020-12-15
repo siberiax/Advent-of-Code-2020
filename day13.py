@@ -19,16 +19,13 @@ for b in buses:
 print(busid * wait)
 
 bd = {}
-
 for i in range(len(buses)):
     if buses[i] != 'x':
         bd[int(buses[i])] = i
 
-
 s = 1
 a = 1
 for num in bd:
-    print(num)
     if bd[num] == 0:
         s = num
         a = num
